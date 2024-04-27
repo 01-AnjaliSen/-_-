@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <script src="https://kit.fontawesome.com/6f2f11d521.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="ToDo.css">
+</head>
+<body>
+    <div class="app">
+        <div class="task-container">
+            <div>
+                <h1>TO DO LIST</h1>
+                <div class="task-form">
+                    <input type="text" id="task_input" placeholder="Add New Task"/>
+                    <button onclick=addTask()>Add</button>
+                </div>
+                <div class="--flex-center ">
+                <p id="tasks-count">0 Total, 0 Completed, 0 Pending</p>
+                </div>
+                <hr/>
+                <p class="--flex-center placeholder-message">No tasks added, please add a task</p>
+                <div id="tasks"></div>
+            </div>
+        </div>
+     </div> 
+
+
+     <script src="ToDo.js"></script>
+     
+</body>
+</html>
