@@ -1,4 +1,4 @@
-**Code Alpha Task -01, Age Calculator - **
+**Code Alpha Task -01, Age Calculator -**
 With the help of HTML, CSS and JavaScript I have created age calculator which calculates Age of any person.
 
 **Code Alpha Task -02, Weather Dashboard -**
